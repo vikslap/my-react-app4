@@ -1,5 +1,6 @@
 
-import styles from "./userprofile.module.css"
+import styles from "./userprofile.module.css";
+import LikeButton from "../likeButton/likeButton";
 
 
 
@@ -15,6 +16,7 @@ export default function UserProfile(props){
         <li>Last Name: {lastName}</li>
         <li>Skills: {skills}</li>
       </ul>
+      <LikeButton />
     </section>
   </>
   );
